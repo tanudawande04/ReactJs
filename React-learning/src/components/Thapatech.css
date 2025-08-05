@@ -1,0 +1,33 @@
+.thapatech-container {
+    background: black;
+    color: white;
+    padding: 24px;
+    margin: 24px 0;
+}
+
+.thapatech-container img {
+    width: 100%;
+    max-width: 350px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.thapatech-container h1,
+.thapatech-container h3,
+.thapatech-container p {
+    margin: 8px 0;
+}
+
+.thapatech-container .btn {
+    background: #111110;
+    color: rgb(254, 252, 252);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid rgb(233, 230, 230);
+
+}
