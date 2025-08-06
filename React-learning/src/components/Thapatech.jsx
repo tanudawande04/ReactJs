@@ -1,5 +1,6 @@
 import './Thapatech.css';
 import SeriesData from '../api/SeriesData.json';
+import { SeriesCards } from './SeriesCard';
 
 const Thapatech = () => {
 
@@ -54,22 +55,8 @@ const Thapatech = () => {
             {SeriesData.map((currElem) => {
 
                 return (
-                    <li key={currElem.id} className="thapatech-container">
-                        <div>
-                            <img src={currElem.img_url} width="350px" height="220px" alt="{currElem.name}" />
-                        </div>
 
-                        <h1>Name : {currElem.name}</h1> {/* values variables */}
-                        <h3>Rating : {currElem.rating}</h3> {/* variable-expression */}
-                        <p>Genre : {currElem.genre}</p> {/* functional call */}
-                        <p> Summary : {currElem.description}</p>
-                        <p>Cast : {currElem.cast}</p>
-                        <a href={currElem.watch_url} target='blank'>
-                            <button className='btn'>Watch now</button>
-                        </a>
-
-
-                    </li>
+                    <SeriesCards key={currElem.id} data={currElem} />
 
                 )
 
