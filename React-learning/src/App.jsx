@@ -3,8 +3,8 @@
 //import Thapatech from "./components/Thapatech";
 //import { Eventprops } from "./components/Eventprops";
 
-import { EventPropgation } from "./components/eventPropgation";
-
+//import { EventPropgation } from "./components/eventPropgation";
+import { State } from "./components/Hooks/state";
 
 export const App = () => {
 
@@ -15,7 +15,9 @@ export const App = () => {
       {/* <Thapatech /> */}
       {/* <Eventprops /> */}
 
-      <EventPropgation />
+      {/* <EventPropgation /> */}
+
+      <State />
 
 
     </>
