@@ -4,7 +4,9 @@
 //import { Eventprops } from "./components/Eventprops";
 
 //import { EventPropgation } from "./components/eventPropgation";
-import { State } from "./components/Hooks/state";
+//import { State } from "./components/Hooks/state";
+
+import { DerivedState } from "./components/Hooks/DerivedState";
 
 export const App = () => {
 
@@ -17,8 +19,9 @@ export const App = () => {
 
       {/* <EventPropgation /> */}
 
-      <State />
+      {/* <State /> */}
 
+      <DerivedState />
 
     </>
 
