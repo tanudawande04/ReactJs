@@ -6,7 +6,8 @@
 //import { EventPropgation } from "./components/eventPropgation";
 //import { State } from "./components/Hooks/state";
 
-import { DerivedState } from "./components/Hooks/DerivedState";
+// import { DerivedState } from "./components/Hooks/DerivedState";
+import Shortcircuit from "./components/shortcrcuit";
 
 export const App = () => {
 
@@ -20,8 +21,10 @@ export const App = () => {
       {/* <EventPropgation /> */}
 
       {/* <State /> */}
+      {/* 
+      <DerivedState /> */}
 
-      <DerivedState />
+      <Shortcircuit />
 
     </>
 
