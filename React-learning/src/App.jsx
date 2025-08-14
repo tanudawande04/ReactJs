@@ -7,7 +7,8 @@
 //import { State } from "./components/Hooks/state";
 
 // import { DerivedState } from "./components/Hooks/DerivedState";
-import Shortcircuit from "./components/shortcrcuit";
+// import Shortcircuit from "./components/shortcrcuit";
+import { States } from "./components/state";
 
 export const App = () => {
 
@@ -24,7 +25,9 @@ export const App = () => {
       {/* 
       <DerivedState /> */}
 
-      <Shortcircuit />
+      {/* <Shortcircuit /> */}
+
+      <States />
 
     </>
 
