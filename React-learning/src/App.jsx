@@ -20,7 +20,9 @@
 // import { UseEffectChallange } from "./components/Hooks/useEffect/useEffectChallenge";
 
 // import { Useeffect } from "./components/Hooks/useEffect";
-import { CleanupFun } from "./components/Hooks/useEffect/Cleanup";
+// import { CleanupFun } from "./components/Hooks/useEffect/Cleanup";
+
+import { NotFetchapi } from "./components/Hooks/useEffect/HowNotToFetchApi";
 
 export const App = () => {
 
@@ -48,7 +50,9 @@ export const App = () => {
       {/* <ContactForm/> */}
       {/* <Useeffect /> */}
       {/* <UseEffectChallange /> */}
-      < CleanupFun />
+      {/* < CleanupFun /> */}
+
+      <NotFetchapi />
 
     </>
 
