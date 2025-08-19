@@ -1,5 +1,6 @@
 //import React, { Fragment } from "react"     // if React.fragment nahi likh rhe hoo tohh yaa direct fregment ni likh ke <> </> y bhi sort h syntax
 
+
 //import Thapatech from "./components/Thapatech";
 //import { Eventprops } from "./components/Eventprops";
 
@@ -8,7 +9,14 @@
 
 // import { DerivedState } from "./components/Hooks/DerivedState";
 // import Shortcircuit from "./components/shortcrcuit";
-import { States } from "./components/state";
+// import { States } from "./components/state";
+
+// import { Controlled } from "./components/Hooks/controledOruncontroled/Controlled";
+
+//import { Registration } from "./components/Hooks/Registration";
+
+// import { RegistrationForm } from "./components/Hooks/RegistatonForm";
+import { ContactForm } from "./components/Hooks/useState/ContacForm";
 
 export const App = () => {
 
@@ -27,7 +35,14 @@ export const App = () => {
 
       {/* <Shortcircuit /> */}
 
-      <States />
+      {/* <States /> */}
+      {/* <Controlled /> */}
+      {/* 
+      <Registration /> */}
+      {/* <RegistrationForm /> */}
+
+      <ContactForm
+      />
 
     </>
 

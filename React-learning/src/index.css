@@ -1,4 +1,75 @@
-body {
-    background: black;
-    color: white;
+/* Container center karne ke liye */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f2f5f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Card styling */
+.card {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Heading */
+.card h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Label */
+form label {
+    display: block;
+    margin: 10px 0 6px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* Input fields */
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+form input:focus,
+form textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Submit button */
+form button {
+    width: 100%;
+    background: #4a90e2;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect on button */
+form button:hover {
+    background: #357ab8;
 }
