@@ -17,9 +17,10 @@
 
 // import { RegistrationForm } from "./components/Hooks/RegistatonForm";
 // import { ContactForm } from "./components/Hooks/useState/ContacForm";
-import { UseEffectChallange } from "./components/Hooks/useEffect/useEffectChallenge";
+// import { UseEffectChallange } from "./components/Hooks/useEffect/useEffectChallenge";
 
-import { Useeffect } from "./components/Hooks/useEffect";
+// import { Useeffect } from "./components/Hooks/useEffect";
+import { CleanupFun } from "./components/Hooks/useEffect/Cleanup";
 
 export const App = () => {
 
@@ -46,7 +47,8 @@ export const App = () => {
 
       {/* <ContactForm/> */}
       {/* <Useeffect /> */}
-      <UseEffectChallange />
+      {/* <UseEffectChallange /> */}
+      < CleanupFun />
 
     </>
 
