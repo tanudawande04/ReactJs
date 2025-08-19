@@ -16,7 +16,10 @@
 //import { Registration } from "./components/Hooks/Registration";
 
 // import { RegistrationForm } from "./components/Hooks/RegistatonForm";
-import { ContactForm } from "./components/Hooks/useState/ContacForm";
+// import { ContactForm } from "./components/Hooks/useState/ContacForm";
+import { UseEffectChallange } from "./components/Hooks/useEffect/useEffectChallenge";
+
+import { Useeffect } from "./components/Hooks/useEffect";
 
 export const App = () => {
 
@@ -41,8 +44,9 @@ export const App = () => {
       <Registration /> */}
       {/* <RegistrationForm /> */}
 
-      <ContactForm
-      />
+      {/* <ContactForm/> */}
+      {/* <Useeffect /> */}
+      <UseEffectChallange />
 
     </>
 

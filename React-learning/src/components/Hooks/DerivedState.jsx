@@ -4,7 +4,7 @@ export const DerivedState = () => {
 
     const [users, userState] = useState([
         { name: " tannu", age: 21 },
-        { name: "vivek", age: 23 },
+        { name: "ccclo", age: 23 },
         { name: "zzzzz", age: 24 },
         { name: "ssssss", age: 20 },
     ])
