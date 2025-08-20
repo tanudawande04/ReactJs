@@ -32,26 +32,27 @@ header h1 {
     background: rgba(255, 255, 255, 0.08);
     border: 2px solid rgba(255, 255, 255, 0.15);
     border-radius: 22px;
-    padding: 30px;
-    width: 280px;
-    height: 300px;
-    /* 🔥 fixed bigger height */
+    padding: 25px;
+    width: 300px;
+    height: 420px;
+    /* 🔥 taller height for image + stats */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    /* image top, text bottom */
+    justify-content: flex-start;
+    /* top align */
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     backdrop-filter: blur(14px);
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     position: relative;
+    z-index: 1;
 }
 
 /* Hover effect */
 .pokemon-card:hover {
     transform: translateY(-12px) scale(1.04);
-    border-color: #211c08;
+    border-color: #ffcb05;
     box-shadow: 0 14px 40px rgba(241, 211, 92, 0.35);
 }
 
@@ -65,8 +66,8 @@ header h1 {
     height: 220%;
     background: conic-gradient(from 180deg, #ffcb05, #3b4cca, #ff5959, #ffcb05);
     animation: spin 7s linear infinite;
-    opacity: 0.12;
-    z-index: 0;
+    opacity: 0.1;
+    z-index: -1;
 }
 
 @keyframes spin {
@@ -77,8 +78,45 @@ header h1 {
 
 /* Image */
 .pokemon-card img {
-    width: 220px;
-    height: auto;
-    margin-bottom: 20px;
-    filter: drop-shado;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    filter: drop-shadow(0px 6px 12px rgba(0, 0, 0, 0.5));
+}
+
+/* Name */
+.pokemon-card h1 {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: #ffcb05;
+    margin-bottom: 15px;
+}
+
+/* Stats Grid */
+.greed-three-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: auto;
+    /* push stats to bottom */
+    width: 100%;
+}
+
+.pokemon-info {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 500;
+    color: #07170b;
+}
+
+.pokemon-info span {
+    display: block;
+    margin-top: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #c1cbc9;
 }
