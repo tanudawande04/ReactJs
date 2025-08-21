@@ -12,8 +12,16 @@ export const ForwardRefs = () => {
 
     return (
         <form onSubmit={handleFormsubmit}>
-            <BeforReactv19 label="usename" ref={username} />
-            <BeforReactv19 label="password" ref={password} />
+
+
+            {/* 
+            < BeforReactv19 label="usename" ref={username} />
+            <BeforReactv19 label="password" ref={password} /> */}
+
+
+
+            <AfterReactv19 label="usename" ref={username} />
+            <AfterReactv19 label="password" ref={password} />
 
             <button>Submit</button>
         </form>
@@ -34,7 +42,7 @@ export const ForwardRefs = () => {
 // })
 
 
-const BeforReactv19 = (props) => {
+const AfterReactv19 = (props) => {
     const id = useId();
     return (
         <div>
