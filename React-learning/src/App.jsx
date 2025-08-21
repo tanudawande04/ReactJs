@@ -1,8 +1,6 @@
 //import React, { Fragment } from "react"     // if React.fragment nahi likh rhe hoo tohh yaa direct fregment ni likh ke <> </> y bhi sort h syntax
 
 
-
-
 //import Thapatech from "./components/Thapatech";
 //import { Eventprops } from "./components/Eventprops";
 
@@ -25,7 +23,8 @@
 // import { CleanupFun } from "./components/Hooks/useEffect/Cleanup";
 // import { NotFetchapi } from "./components/Hooks/useEffect/HowNotToFetchApi";
 
-import { UserefHook } from "./components/Hooks/useRef/useRef";
+// import { UserefHook } from "./components/Hooks/useRef/useRef";
+import { ForwardRefs } from "./components/Hooks/useRef/forwardref";
 
 
 
@@ -58,7 +57,8 @@ export const App = () => {
       {/* < CleanupFun /> */}
 
       {/* <NotFetchapi /> */}
-      <UserefHook />
+      {/* <UserefHook /> */}
+      <ForwardRefs />
 
     </>
 
