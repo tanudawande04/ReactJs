@@ -24,9 +24,9 @@
 // import { NotFetchapi } from "./components/Hooks/useEffect/HowNotToFetchApi";
 
 // import { UserefHook } from "./components/Hooks/useRef/useRef";
-import { ForwardRefs } from "./components/Hooks/useRef/forwardref";
+// import { ForwardRefs } from "./components/Hooks/useRef/forwardref";
 
-
+import { UseId } from "./components/Hooks/useID";
 
 export const App = () => {
 
@@ -58,7 +58,8 @@ export const App = () => {
 
       {/* <NotFetchapi /> */}
       {/* <UserefHook /> */}
-      <ForwardRefs />
+      {/* <ForwardRefs /> */}
+      <UseId />
 
     </>
 
