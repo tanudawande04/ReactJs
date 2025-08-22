@@ -1,0 +1,2 @@
+//useContext ke jgh aap use only write krte ho or import krte hoo thats it 
+//use ko hm conditions ke ander bhi use kr skte hai (qki usecontext ya kisi bhi hook  ko hm condition ke ander use nahii krte haiii).

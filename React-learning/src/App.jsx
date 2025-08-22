@@ -33,6 +33,7 @@
 import { BioProvider } from "./components/Hooks/ContextApi";
 import { Home } from "./components/Hooks/ContextApi/Home";
 import { About } from "./components/Hooks/ContextApi/About";
+import { Service } from "./components/Hooks/ContextApi/Service";
 
 export const App = () => {
 
@@ -71,7 +72,10 @@ export const App = () => {
       <BioProvider>
         <Home />
         <About />
+        <Service />
       </BioProvider>
+
+
 
     </>
 
