@@ -26,7 +26,13 @@
 // import { UserefHook } from "./components/Hooks/useRef/useRef";
 // import { ForwardRefs } from "./components/Hooks/useRef/forwardref";
 
-import { UseId } from "./components/Hooks/useID";
+// import { UseId } from "./components/Hooks/useID";
+
+// import { ParentComponent } from "./components/PropsDrilling";
+
+import { BioProvider } from "./components/Hooks/ContextApi";
+import { Home } from "./components/Hooks/ContextApi/Home";
+import { About } from "./components/Hooks/ContextApi/About";
 
 export const App = () => {
 
@@ -59,7 +65,13 @@ export const App = () => {
       {/* <NotFetchapi /> */}
       {/* <UserefHook /> */}
       {/* <ForwardRefs /> */}
-      <UseId />
+      {/* <UseId /> */}
+      {/* <ParentComponent /> */}
+
+      <BioProvider>
+        <Home />
+        <About />
+      </BioProvider>
 
     </>
 
