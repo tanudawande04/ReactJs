@@ -30,12 +30,14 @@
 
 // import { ParentComponent } from "./components/PropsDrilling";
 
-import { BioProvider } from "./components/Hooks/ContextApi";
-import { Home } from "./components/Hooks/ContextApi/Home";
-import { About } from "./components/Hooks/ContextApi/About";
-import { Service } from "./components/Hooks/ContextApi/Service";
+// import { BioProvider } from "./components/Hooks/ContextApi";
+// import { Home } from "./components/Hooks/ContextApi/Home";
+// import { About } from "./components/Hooks/ContextApi/About";
+// import { Service } from "./components/Hooks/ContextApi/Service";
 
-import { UseReducer } from "./components/Hooks/UseReducer";
+// import { UseReducer } from "./components/Hooks/UseReducer";
+
+import { ReactMemo } from "./components/Hooks/Memoization/Memo/ReactMemo";
 
 export const App = () => {
 
@@ -78,7 +80,8 @@ export const App = () => {
       </BioProvider>
        */}
 
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <ReactMemo />
 
     </>
 
