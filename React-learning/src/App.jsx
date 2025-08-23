@@ -35,6 +35,8 @@ import { Home } from "./components/Hooks/ContextApi/Home";
 import { About } from "./components/Hooks/ContextApi/About";
 import { Service } from "./components/Hooks/ContextApi/Service";
 
+import { UseReducer } from "./components/Hooks/UseReducer";
+
 export const App = () => {
 
   // return ([<Thapatech key="1" />, <Thapatech key="2" />] // one method Arrays with keys  eliminate extra div 
@@ -69,13 +71,14 @@ export const App = () => {
       {/* <UseId /> */}
       {/* <ParentComponent /> */}
 
-      <BioProvider>
+      {/* <BioProvider>
         <Home />
         <About />
         <Service />
       </BioProvider>
+       */}
 
-
+      <UseReducer />
 
     </>
 
