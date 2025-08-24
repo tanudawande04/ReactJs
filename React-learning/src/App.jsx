@@ -37,7 +37,8 @@
 
 // import { UseReducer } from "./components/Hooks/UseReducer";
 
-import { ReactMemo } from "./components/Hooks/Memoization/Memo/ReactMemo";
+// import { ReactMemo } from "./components/Hooks/Memoization/Memo/ReactMemo";
+import UseMemo from "./components/Hooks/Memoization/UseMemo";
 
 export const App = () => {
 
@@ -81,8 +82,8 @@ export const App = () => {
        */}
 
       {/* <UseReducer /> */}
-      <ReactMemo />
-
+      {/* <ReactMemo /> */}
+      <UseMemo />
     </>
 
 
